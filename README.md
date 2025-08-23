@@ -1,11 +1,13 @@
 # My-7OOP-Laboratory-Projects
-This is my simple portfolio in the 7OOP subject and you can also see my activities here
 
+My journey through Object-Oriented Programming. Here are some of the things I've built.
 ---
 ## :notes: About Me
-A simple person, but friendly and happy even with small things.
+I'm just a simple, happy person who appreciates the small things and enjoys being around people.
 
 ### What I Believe In:
-- I believe in the saying that if you do something wrong, there is karma to compensate.
-- If you plant something, you will reap something. It's like studying, if you work hard, you will achieve something.
-- Work hard and always believe in God, because I believe that we can also achieve our own dreams if we do this. :milky_way:
+- I believe that when you do something wrong, karma will make things right in the end.
+- What you plant is what you harvest. So if you work hard at studying, you're bound to achieve something.
+- "Work hard and keep your faith – I believe that's the way to make your dreams come true. :milky_way:
+
+I'm a student who's always looking to **learn and experience** new things.
