@@ -22,3 +22,4 @@ I'm a student who's always looking to **learn and experience** new things.
 ---
 
 ## :page_with_curl: Language I used before
+<img src="https://www.kindpng.com/picc/m/355-3559040_c-language-c-programming-logo-png-transparent-png.png" alt="C Language - C Programming Logo Png, Transparent Png@kindpng.com" height="50"/>
