@@ -23,3 +23,24 @@ I'm a student who's always looking to **learn and experience** new things.
 
 ## :page_with_curl: Language I used before
 <img src="https://www.kindpng.com/picc/m/355-3559040_c-language-c-programming-logo-png-transparent-png.png" alt="C Language - C Programming Logo Png, Transparent Png@kindpng.com" height="50"/>
+
+---
+
+## :computer: My Projects
+### :envelope: Midterm
+
+---
+
+## :mortar_board: Finals
+
+---
+
+## :notes: Fun Fact About Me:
+
+---
+
+## :sparkler: Skills
+- Time Management :alarm_clock:
+- Patience :relieved:
+- Active Listening :yellow_heart:
+- Optimism :wink:
