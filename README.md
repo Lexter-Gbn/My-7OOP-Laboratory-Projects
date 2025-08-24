@@ -44,3 +44,7 @@ I'm a student who's always looking to **learn and experience** new things.
 - Patience :relieved:
 - Active Listening :yellow_heart:
 - Optimism :wink:
+
+---
+
+## :calling: Click Below to Connect with Me!
