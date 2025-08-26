@@ -3,6 +3,7 @@
 My journey through Object-Oriented Programming. Here are some of the things I've built.
 ---
 ## :notes: About Me
+
 I'm just a simple, happy person who appreciates the small things and enjoys being around people.
 
 ### What I Believe In:
