@@ -6,7 +6,7 @@ My journey through Object-Oriented Programming. Here are some of the things I've
 
 I'm just a simple, happy person who appreciates the small things and enjoys being around people.
 
-<img src=“https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/e47a9cf0ded68c9c65bb1f8a4bfe733373ccc5c2/IMG6262627_25-08-28_22-04-16-270.jpg” height=“200” width=“250”>
+<img src=“https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/e47a9cf0ded68c9c65bb1f8a4bfe733373ccc5c2/IMG6262627_25-08-28_22-04-16-270.jpg”>
 
 ### What I Believe In:
 - I believe that when you do something wrong, karma will make things right in the end.
