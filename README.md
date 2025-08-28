@@ -17,7 +17,9 @@ I'm a student who's always looking to **learn and experience** new things.
 
 ## :mortar_board: Education
 **Senior High School:** Gov. Rafael L. Lazatin Integrated School
+
 **Junior High School:** Orani National High School Parang-Parang
+
 **Elementary:** Pant.Luma Elementary School
 
 ---
