@@ -31,11 +31,8 @@ I'm a student who's always looking to **learn and experience** new things.
 
 <img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" height="50"/>
 &nbsp;&nbsp;
-<img src="https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" height="50"/> 
-&nbsp;&nbsp;
+
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" height="50"/>
-&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white" height="50"/>
 &nbsp;&nbsp;
 
 ---
