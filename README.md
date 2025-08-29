@@ -68,7 +68,7 @@ I'm a student who's always looking to **learn and experience** new things.
 </a>
 &nbsp;&nbsp;
 
-https://www.instagram.com/gbnlxtrrr?igsh=c2cxYTNrOHVyY3Fu
+<a href="//www.instagram.com/gbnlxtrrr" target="_blank">
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="40"/>
 </a>
 &nbsp;&nbsp;
