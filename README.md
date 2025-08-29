@@ -73,7 +73,7 @@ I'm a student who's always looking to **learn and experience** new things.
 </a>
 &nbsp;&nbsp;
 
-https://www.tiktok.com/@slrrrrtsss?_t=ZS-8zCDIetXiCH&_r=1
+<a href="//www.tiktok.com/@slrrrrtsss" target="_blank">
 <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" height="40"/>
 </a>
 &nbsp;&nbsp;
