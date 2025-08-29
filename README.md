@@ -3,11 +3,13 @@
 My journey through Object-Oriented Programming. Here are some of the things I've built.
 ---
 ## :notes: About Me
-<p align= "center">
-I'm a positive and sociable individual who finds happiness in everyday moments and meaningful interactions. My academic journey has shaped me into a determined person with a strong desire to continuously improve myself and reach my full potential as a student.
 
 <p align= "center">
 <img src="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/e47a9cf0ded68c9c65bb1f8a4bfe733373ccc5c2/IMG6262627_25-08-28_22-04-16-270.jpg" width="200" height="400" />
+
+<p align= "center">
+I'm a positive and sociable individual who finds happiness in everyday moments and meaningful interactions. My academic journey has shaped me into a determined person with a strong desire to continuously improve myself and reach my full potential as a student.
+
 
 ### What I Believe In:
 - I believe that when you do something wrong, karma will make things right in the end.
