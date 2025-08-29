@@ -33,7 +33,6 @@ I'm a student who's always looking to **learn and experience** new things.
 
 <img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" height="50"/>
 &nbsp;&nbsp;
-
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" height="50"/>
 &nbsp;&nbsp;
 
@@ -61,6 +60,8 @@ I'm a student who's always looking to **learn and experience** new things.
 ---
 
 ## :calling: Click Below to Connect with Me!
+
+<a href="mailto:lgabon24-1509@cca.edu.ph" target="_blank">
 
 https://www.facebook.com/share/16BfYJqMno/
 <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="40"/>
