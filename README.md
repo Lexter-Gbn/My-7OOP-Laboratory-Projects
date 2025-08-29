@@ -63,7 +63,7 @@ I'm a student who's always looking to **learn and experience** new things.
 
 <a href="mailto:lgabon24-1509@cca.edu.ph" target="_blank">
 
-https://www.facebook.com/share/16BfYJqMno/
+<a href="//www.facebook.com/Gbnlxtr" target="_blank">
 <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="40"/>
 </a>
 &nbsp;&nbsp;
