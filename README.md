@@ -54,7 +54,7 @@ I'm a student who's always looking to **learn and experience** new things.
 
 ## :notes: Fun Fact About Me:
 
-- :heart: Simple pleasures like a good cup of coffee, or a heartfelt conversation bring immense happiness to me.
+- :coffee: Simple pleasures like a good cup of coffee, or a heartfelt conversation bring immense happiness to me.
 
 ---
 
