@@ -48,7 +48,7 @@ I'm a student who's always looking to **learn and experience** new things.
 
 ---
 
-## :mortar_board: Finals
+### :mortar_board: Finals
 
 ---
 
