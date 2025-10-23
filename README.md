@@ -49,6 +49,8 @@ I'm a student who's always looking to **learn and experience** new things.
 
 - Midterm Lab Task 1: [view file](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/bba8dfcebead0cf8978b0ffa546eb0bece176161/GG_OOPLABTASK1MIDTERm.pdf)
 
+- Midterm Lab Task 2: [view file](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/f60326f453a91530d6a777ee7ec8007cd8a2e72f/GLexter.pdf)
+
 ---
 
 ### :mortar_board: Finals
