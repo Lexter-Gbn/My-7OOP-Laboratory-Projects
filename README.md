@@ -45,6 +45,7 @@ I'm a student who's always looking to **learn and experience** new things.
 
 ## :computer: My Projects
 ### :envelope: Midterm
+[view file](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/d33c3b3a77f9ad1a06368c55433102bb35d2718f/7OOP.Gatil%2CGabon.pdf)
 
 ---
 
