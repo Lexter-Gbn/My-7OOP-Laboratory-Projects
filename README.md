@@ -45,18 +45,19 @@ I'm a student who's always looking to **learn and experience** new things.
 
 ## :computer: My Projects
 ### :envelope: Midterm
-- Paired Lab Task: [view file](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/d33c3b3a77f9ad1a06368c55433102bb35d2718f/7OOP.Gatil%2CGabon.pdf)
 
-- Midterm Lab Task 1: [view file](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/bba8dfcebead0cf8978b0ffa546eb0bece176161/GG_OOPLABTASK1MIDTERm.pdf)
+- [Paired Lab Task](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/d33c3b3a77f9ad1a06368c55433102bb35d2718f/7OOP.Gatil%2CGabon.pdf)
 
-- Midterm Lab Task 2: [view file](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/f60326f453a91530d6a777ee7ec8007cd8a2e72f/GLexter.pdf)
+- [Midterm Lab Task 1](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/bba8dfcebead0cf8978b0ffa546eb0bece176161/GG_OOPLABTASK1MIDTERm.pdf)
 
-- Midterm Lab Task 3: [view file](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/529b4a73f060bcb217c8227ab08b5effeec2a0b7/Untitled%20document-2.pdf)
+- [Midterm Lab Task 2](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/f60326f453a91530d6a777ee7ec8007cd8a2e72f/GLexter.pdf)
 
-- Midterm Lab Task 4: [view file](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/3d4671a6f9d8adc411f3e0bbf83d570d6d87090f/GabonLexter.pdf)
+- [Midterm Lab Task 3](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/529b4a73f060bcb217c8227ab08b5effeec2a0b7/Untitled%20document-2.pdf)
 
-- Midterm Lab Task 5: [view file](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/0319740b8dd978f778f95ea7ec4e60e7287acbe6/gabonlexter.pdf)
-- 
+- [Midterm Lab Task 4](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/3d4671a6f9d8adc411f3e0bbf83d570d6d87090f/GabonLexter.pdf)
+
+- [Midterm Lab Task 5](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/0319740b8dd978f778f95ea7ec4e60e7287acbe6/gabonlexter.pdf)
+
 ---
 
 ### :mortar_board: Finals
