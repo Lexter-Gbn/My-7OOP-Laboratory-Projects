@@ -1,27 +1,9 @@
-<div align="center" style="
-  background-color:#0d0d0d;
-  color:#dcdcdc;
-  padding:40px;
-  border-radius:20px;
-  box-shadow: 0 0 20px #00ffff33;
-  font-family: 'Consolas', 'Courier New', monospace;
-">
-
 <h1 style="color:#00ffff;">💻 My-7OOP-Laboratory-Projects 💻</h1>
 <p><i>My journey through Object-Oriented Programming — Here are some of the things I've built.</i></p>
 
 </div>
 
 ---
-
-<div align="center" style="
-  background-color:#1a1a1a;
-  color:#e0e0e0;
-  padding:25px;
-  border-left:5px solid #00ffff;
-  border-radius:10px;
-  margin-top:20px;
-">
   
 ## :notes: About Me
 
