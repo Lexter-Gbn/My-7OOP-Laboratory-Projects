@@ -62,6 +62,8 @@ I'm a student who's always looking to **learn and experience** new things.
 
 ### :mortar_board: Finals
 
+- [Finals Lab Task 1](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/46708e92dd680888952dd9a4bf6ef97756a3832b/gabonlexterc.pdf)
+
 ---
 
 ## :notes: Fun Fact About Me:
