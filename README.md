@@ -1,11 +1,10 @@
-
 # 💻 My-7OOP-Laboratory-Projects 💻
 <p><i>My journey through Object-Oriented Programming — Here are some of the things I've built.</i></p>
 
 ---
   
-## :notes: About Me
-
+## 🎶About Me
+<p align= "center">
 <img src= "https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/6cadfac21cab741ede476b710374ec4e309f2bb8/IMG6262627_25-08-28_22-04-16-270.jpg?" width="200" height="400" />
   
 
