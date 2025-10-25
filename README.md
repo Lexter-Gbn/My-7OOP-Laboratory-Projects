@@ -1,4 +1,16 @@
-# My-7OOP-Laboratory-Projects
+<div align="center" style="
+  background-color:#0d0d0d;
+  color:#dcdcdc;
+  padding:40px;
+  border-radius:20px;
+  box-shadow: 0 0 20px #00ffff33;
+  font-family: 'Consolas', 'Courier New', monospace;
+">
+  
+  <h1 style="color:#00ffff;">💻 My-7OOP-Laboratory-Projects 💻</h1>
+</div>
+
+---
 
 My journey through Object-Oriented Programming. Here are some of the things I've built.
 ---
