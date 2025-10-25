@@ -43,15 +43,6 @@ My academic journey has shaped me into a determined person with a strong desire 
 
 ---
 
-<div style="
-  background-color:#111;
-  color:#e0e0e0;
-  padding:20px;
-  border-left:5px solid #00ffff;
-  border-radius:10px;
-  margin-top:20px;
-">
-
 ## 🎓 Education
 **Senior High School:** Gov. Rafael L. Lazatin Integrated School  
 **Junior High School:** Orani National High School Parang-Parang  
@@ -60,15 +51,6 @@ My academic journey has shaped me into a determined person with a strong desire 
 </div>
 
 ---
-
-<div style="
-  background-color:#1a1a1a;
-  color:#e0e0e0;
-  padding:20px;
-  border-left:5px solid #00ffff;
-  border-radius:10px;
-  margin-top:20px;
-">
 
 ## :page_with_curl: Languages I Used Before
 
@@ -81,14 +63,6 @@ My academic journey has shaped me into a determined person with a strong desire 
 </div>
 
 ---
-
-<div style="
-  background-color:#111;
-  color:#e0e0e0;
-  padding:25px;
-  border-left:5px solid #00ffff;
-  border-radius:10px;
-">
 
 ## 💻 My Projects
 
@@ -107,28 +81,12 @@ My academic journey has shaped me into a determined person with a strong desire 
 
 ---
 
-<div style="
-  background-color:#1a1a1a;
-  color:#e0e0e0;
-  padding:20px;
-  border-left:5px solid #00ffff;
-  border-radius:10px;
-">
-
 ## ☕ Fun Fact About Me
 - Simple pleasures like a good cup of coffee or a heartfelt conversation bring immense happiness to me.
 
 </div>
 
 ---
-
-<div style="
-  background-color:#111;
-  color:#e0e0e0;
-  padding:20px;
-  border-left:5px solid #00ffff;
-  border-radius:10px;
-">
 
 ## :sparkler: Skills
 - Time Management ⏰  
@@ -139,15 +97,6 @@ My academic journey has shaped me into a determined person with a strong desire 
 </div>
 
 ---
-
-<div align="center" style="
-  background-color:#0d0d0d;
-  color:#dcdcdc;
-  padding:30px;
-  border-radius:20px;
-  box-shadow: 0 0 15px #00ffff33;
-  margin-top:30px;
-">
 
 ## :calling: Connect with Me!
 
