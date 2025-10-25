@@ -1,13 +1,11 @@
-<h1 style="color:#00ffff;">💻 My-7OOP-Laboratory-Projects 💻</h1>
+# 💻 My-7OOP-Laboratory-Projects 💻</h1>
 <p><i>My journey through Object-Oriented Programming — Here are some of the things I've built.</i></p>
-
-</div>
 
 ---
   
 ## :notes: About Me
 
-<img src="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/e47a9cf0ded68c9c65bb1f8a4bfe733373ccc5c2/IMG6262627_25-08-28_22-04-16-270.jpg" width="200" height="400" style="border-radius:10px;"/>
+<img src="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/e47a9cf0ded68c9c65bb1f8a4bfe733373ccc5c2/IMG6262627_25-08-28_22-04-16-270.jpg" width="200" height="400">
 
 <p>
 Hello, I'm <b>Lexter Gabon</b> — a positive and sociable individual who finds happiness in everyday moments and meaningful interactions.  
@@ -21,7 +19,6 @@ My academic journey has shaped me into a determined person with a strong desire 
 
 <p><b>I'm a student who's always looking to learn and experience new things.</b></p>
 
-</div>
 
 ---
 
@@ -30,7 +27,6 @@ My academic journey has shaped me into a determined person with a strong desire 
 **Junior High School:** Orani National High School Parang-Parang  
 **Elementary:** Pant.Luma Elementary School  
 
-</div>
 
 ---
 
@@ -42,7 +38,6 @@ My academic journey has shaped me into a determined person with a strong desire 
 &nbsp;&nbsp;
 <img src="https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" height="50"/> 
 
-</div>
 
 ---
 
@@ -59,14 +54,12 @@ My academic journey has shaped me into a determined person with a strong desire 
 ### :mortar_board: Finals
 - [Finals Lab Task 1](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/46708e92dd680888952dd9a4bf6ef97756a3832b/gabonlexterc.pdf)
 
-</div>
 
 ---
 
 ## ☕ Fun Fact About Me
 - Simple pleasures like a good cup of coffee or a heartfelt conversation bring immense happiness to me.
 
-</div>
 
 ---
 
@@ -76,7 +69,6 @@ My academic journey has shaped me into a determined person with a strong desire 
 - Active Listening 💛  
 - Optimism 😉  
 
-</div>
 
 ---
 
@@ -101,4 +93,3 @@ My academic journey has shaped me into a determined person with a strong desire 
 <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" height="40"/>
 </a>
 
-</div>
