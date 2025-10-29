@@ -7,10 +7,12 @@
 
 <div align='center'> 
 <img src= "IMG6262627_25-08-28_22-04-16-270.jpg?"
-  alt="Profile Picture",
-  width="200",
+  alt="Profile Picture"
+  width="200"
   height="400" />
 </div>
+
+---
 
 <p>
 Hello, I'm <b>Lexter Gabon</b> — a positive and sociable individual who finds happiness in everyday moments and meaningful interactions.  
