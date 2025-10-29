@@ -8,7 +8,7 @@
 <div align='center'> 
 <img src= "IMG6262627_25-08-28_22-04-16-270.jpg?"
   alt="Profile Picture"
-  width="225"
+  width="245"
   height="255" />
 </div>
 
