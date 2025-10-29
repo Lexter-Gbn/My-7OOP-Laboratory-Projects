@@ -4,7 +4,13 @@
 ---
   
 ## 🎶About Me
-<img src= "https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/6cadfac21cab741ede476b710374ec4e309f2bb8/IMG6262627_25-08-28_22-04-16-270.jpg?" width="200" height="400" />
+
+<div align='center'> 
+<img src= "IMG6262627_25-08-28_22-04-16-270.jpg?"
+  alt="Profile Picture",
+  width="200",
+  height="400" />
+</div>
 
 <p>
 Hello, I'm <b>Lexter Gabon</b> — a positive and sociable individual who finds happiness in everyday moments and meaningful interactions.  
