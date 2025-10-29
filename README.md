@@ -9,7 +9,7 @@
 <img src= "IMG6262627_25-08-28_22-04-16-270.jpg?"
   alt="Profile Picture"
   width="225"
-  height="275" />
+  height="265" />
 </div>
 
 ---
