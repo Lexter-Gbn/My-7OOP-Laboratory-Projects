@@ -1,1 +1,26 @@
 
+theme:
+  name: "Tech Vibes"
+  colors:
+    primary: "#8e44ad"       # Purple (main accent)
+    secondary: "#333333"     # Dark gray/black (background)
+    background: "#1a1a1a"    # Deep gray (main background)
+    accent: "#dedede"        # Light gray for borders or highlights
+    text: "#ffffff"          # White (main text)
+    code: "#212121"          # Black for code blocks
+    link: "#ae81ff"          # Purple for links
+    nav: "#222222"           # Nav background
+    nav_text: "#eeeeee"      # Nav text color
+  fonts:
+    heading: "'Orbitron', 'Roboto', 'sans-serif'"  # Futuristic tech font
+    body: "'Roboto', 'sans-serif'"
+  logo: "assets/logo-tech.svg"
+  favicon: "assets/favicon.ico"
+  layout:
+    style: "dark"
+    border_radius: "6px"
+    box_shadow: "0 2px 16px rgba(142,68,173,0.2)"
+  tech_vibes:
+    glow_effect: true
+    animated_nav: true
+    neon_accent: "#8e44ad"
