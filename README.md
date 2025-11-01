@@ -6,7 +6,7 @@
 ## 🎶About Me
 
 <div align='center'> 
-<img src= "IMG6262627_25-08-28_22-04-16-270.jpg?"
+<img src= "IMG_20251030_10-14-12-318.jpg?"
   alt="Profile Picture"
   width="235"
   height="255" />
