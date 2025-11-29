@@ -9,14 +9,16 @@
         body {
             margin: 0;
             font-family: "Poppins", sans-serif;
-            background: #2b2b2b; /* dark gray background */
+            background: #2f2f2f; /* dark gray background */
             color: #d4d4d4; /* professional light gray text */
         }
 
+        /* HEADER - BLUE + PURPLE GRADIENT */
         header {
             text-align: center;
             padding: 40px 20px;
-            background: linear-gradient(135deg, #4b006e, #8a2be2);
+            background: linear-gradient(135deg, #4c1d95, #3b82f6, #8b5cf6); 
+            /* purple → blue → light purple */
             color: white;
         }
 
@@ -24,18 +26,24 @@
             margin: 0;
         }
 
+        /* SECTIONS - DARK GRAY + BLUE/PURPLE ACCENTS */
         section {
             width: 80%;
             margin: 30px auto;
-            background: #3a3a3a; /* darker gray for sections */
+            background: #3b3b3b; /* slightly lighter gray */
             padding: 25px;
             border-radius: 15px;
-            border-left: 5px solid #9d4edd;
-            box-shadow: 0 0 15px rgba(157, 78, 221, 0.25);
+
+            /* Blue + purple left border accent */
+            border-left: 5px solid #6d28d9; /* royal purple */
+
+            /* Glow effect soft purple/blue */
+            box-shadow: 0 0 15px rgba(109, 40, 217, 0.25);
         }
 
+        /* HEADINGS - BLUE + PURPLE GRADIENT TEXT */
         h2 {
-            background: linear-gradient(90deg, #9d4edd, #7b2cbf);
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6); 
             -webkit-background-clip: text;
             color: transparent;
             font-weight: 700;
@@ -50,13 +58,14 @@
             box-shadow: 0 5px 20px rgba(0,0,0,0.4);
         }
 
+        /* LINKS - BLUE/PURPLE */
         a {
-            color: #c59cff; /* soft purple */
+            color: #9fb7ff; /* soft blue-purple */
             text-decoration: none;
         }
 
         a:hover {
-            color: #e0b3ff;
+            color: #c3a3ff; /* lighter purple */
         }
 
         .social-icons img {
