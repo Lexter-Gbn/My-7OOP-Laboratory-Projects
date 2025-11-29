@@ -24,9 +24,7 @@
         color: white;
     }
 
-    h1 {
-        margin: 0;
-    }
+    h1 { margin: 0; }
 
     section {
         width: 80%;
@@ -34,16 +32,13 @@
         background: #3b3b3b;
         padding: 25px;
         border-radius: 15px;
-        border-left: 5px solid transparent; /* base for LED effect */
-        /* Glow effect */
+        border-left: 5px solid transparent;
         box-shadow: 0 0 15px rgba(109, 40, 217, 0.25);
-
-        /* Animated LED border */
         background-clip: padding-box;
         position: relative;
     }
 
-    /* LED animated border */
+    /* LED animated left border */
     section::before {
         content: '';
         position: absolute;
@@ -51,7 +46,7 @@
         width: 5px;
         border-radius: 5px 0 0 5px;
         background: linear-gradient(180deg, #6d28d9, #3b82f6, #8b5cf6, #3b82f6, #6d28d9);
-        background-size: 100% 300%; /* For vertical animation */
+        background-size: 100% 300%;
         animation: moveBorder 2.5s linear infinite;
     }
 
@@ -74,13 +69,19 @@
         box-shadow: 0 5px 20px rgba(0,0,0,0.4);
     }
 
+    /* Link styles with click animation */
     a {
         color: #9fb7ff;
         text-decoration: none;
+        transition: all 0.2s ease;
+        position: relative;
     }
 
-    a:hover {
-        color: #c3a3ff;
+    a:hover { color: #c3a3ff; }
+
+    a:active {
+        transform: scale(0.95);
+        filter: brightness(1.2);
     }
 
     .social-icons img { margin: 8px; }
@@ -120,9 +121,9 @@
 <section>
     <h2>Languages I Used Before</h2>
     <p>
-        <img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" height="50">
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" height="50">
-        <img src="https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" height="50">
+        <a href="#"><img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" height="50"></a>
+        <a href="#"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" height="50"></a>
+        <a href="#"><img src="https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" height="50"></a>
     </p>
 </section>
 
