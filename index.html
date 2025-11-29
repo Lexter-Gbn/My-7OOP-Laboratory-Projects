@@ -34,16 +34,13 @@
         background: #3b3b3b;
         padding: 25px;
         border-radius: 15px;
-        border-left: 5px solid transparent; /* base for LED effect */
-        /* Glow effect */
+        border-left: 5px solid transparent;
         box-shadow: 0 0 15px rgba(109, 40, 217, 0.25);
-
-        /* Animated LED border */
         background-clip: padding-box;
         position: relative;
     }
 
-    /* LED animated border */
+    /* LED animated left border */
     section::before {
         content: '';
         position: absolute;
@@ -51,7 +48,7 @@
         width: 5px;
         border-radius: 5px 0 0 5px;
         background: linear-gradient(180deg, #6d28d9, #3b82f6, #8b5cf6, #3b82f6, #6d28d9);
-        background-size: 100% 300%; /* For vertical animation */
+        background-size: 100% 300%;
         animation: moveBorder 2.5s linear infinite;
     }
 
@@ -77,13 +74,42 @@
     a {
         color: #9fb7ff;
         text-decoration: none;
+        transition: all 0.2s ease;
+        position: relative;
     }
 
-    a:hover {
-        color: #c3a3ff;
+    a:hover { color: #c3a3ff; }
+
+    a:active {
+        transform: scale(0.95);
+        filter: brightness(1.2);
     }
 
     .social-icons img { margin: 8px; }
+
+    /* GitHub button */
+    .github-btn {
+        display: inline-block;
+        padding: 10px 25px;
+        font-weight: 600;
+        border-radius: 8px;
+        background: linear-gradient(135deg, #3b82f6, #6d28d9);
+        color: white;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        box-shadow: 0 5px 15px rgba(109,40,217,0.4);
+        margin-top: 20px;
+    }
+
+    .github-btn:hover {
+        background: linear-gradient(135deg, #6d28d9, #3b82f6);
+        box-shadow: 0 7px 20px rgba(109,40,217,0.6);
+    }
+
+    .github-btn:active {
+        transform: scale(0.95);
+        filter: brightness(1.2);
+    }
 </style>
 </head>
 
@@ -93,6 +119,11 @@
     <h1>My 7OOP Laboratory Projects 💻</h1>
     <p><i>My journey through Object-Oriented Programming — Here are some of the things I've built.</i></p>
 </header>
+
+<!-- View on GitHub Button -->
+<div class="center">
+    <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects" target="_blank" class="github-btn">View On GitHub</a>
+</div>
 
 <section class="center">
     <h2>About Me</h2>
@@ -142,7 +173,6 @@
     <h3>Finals</h3>
     <ul>
         <li><a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/46708e92dd680888952dd9a4bf6ef97756a3832b/gabonlexterc.pdf">Finals Lab Task 1</a></li>
-        <li><a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/e5535d3285ac3570d00323f7574d65ac3dbc5d0c/GabonLexterF2.pdf">Finals Lab Task 2</a></li>
     </ul>
 </section>
 
