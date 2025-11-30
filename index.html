@@ -22,6 +22,12 @@
         padding: 40px 20px;
         background: linear-gradient(135deg, #4c1d95, #3b82f6, #8b5cf6);
         color: white;
+
+        /* Curved bottom edges */
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+
+        box-shadow: 0 8px 20px rgba(0,0,0,0.35);
     }
 
     h1 { margin: 0; }
@@ -85,6 +91,7 @@
 
     .social-icons img { margin: 8px; }
 
+    /* GitHub / file buttons */
     .btn {
         display: inline-block;
         padding: 8px 20px;
@@ -112,7 +119,21 @@
         margin-top: 5px;
     }
 
-    /* Fade + Slide About Me */
+    /* Slide + Fade About Me */
+    #about-info {
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: max-height 0.6s ease, opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    #about-info.show {
+        max-height: 500px;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
     .toggle-btn {
         margin-top: 15px;
         padding: 8px 20px;
@@ -125,25 +146,11 @@
         transition: all 0.2s ease;
         box-shadow: 0 5px 15px rgba(109,40,217,0.4);
     }
-
     .toggle-btn:hover {
         background: linear-gradient(135deg, #6d28d9, #3b82f6);
     }
-
-    #about-info {
-        max-height: 0;
-        overflow: hidden;
-        opacity: 0;
-        transform: translateY(-15px);
-        transition: max-height 0.5s ease, 
-                    opacity 0.5s ease,
-                    transform 0.5s ease;
-    }
-
-    #about-info.active {
-        max-height: 250px;
-        opacity: 1;
-        transform: translateY(0);
+    .toggle-btn:active {
+        transform: scale(0.95);
     }
 </style>
 </head>
@@ -151,7 +158,7 @@
 <body>
 
 <header>
-    <h1>My 7OOP Laboratory Projects</h1>
+    <h1>My 7OOP Laboratory Projects </h1>
     <p><i>My journey through Object-Oriented Programming — Here are some of the things I've built.</i></p>
 </header>
 
@@ -162,17 +169,15 @@
 <section class="center">
     <h2>About Me</h2>
 
-    <img src="IMG_20251030_10-14-12-318.jpg?" 
-         alt="Profile Picture" width="235" height="255" class="profile">
+    <img src="IMG_20251030_10-14-12-318.jpg?" width="235" height="255" class="profile">
 
     <br><br>
 
     <button class="toggle-btn" onclick="toggleAbout()">View About Me</button>
 
     <div id="about-info">
-        <p>Hello, I'm <b>Lexter</b> — a positive and sociable individual who finds happiness in everyday moments 
-        and meaningful interactions. My academic journey has shaped me into a determined person with a strong 
-        desire to continuously improve myself and reach my full potential as a student.</p>
+        <p>Hello, I'm <b>Lexter</b> — a positive and sociable individual who finds happiness in everyday moments and meaningful interactions.  
+        My academic journey has shaped me into a determined person with a strong desire to continuously improve myself and reach my full potential as a student.</p>
     </div>
 </section>
 
@@ -208,52 +213,60 @@
     <ul>
         <li>Paired Lab Task
             <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/d33c3b3a77f9ad1a06368c55433102bb35d2718f/7OOP.Gatil%2CGabon.pdf" target="_blank" class="btn">View</a>
+                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/d33c3b3a77f9ad1a06368c55433102bb35d2718f/7OOP.Gatil%2CGabon.pdf"
+                   target="_blank" class="btn">View</a>
             </div>
         </li>
 
         <li>Midterm Lab Task 1
             <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/bba8dfcebead0cf8978b0ffa546eb0bece176161/GG_OOPLABTASK1MIDTERm.pdf" target="_blank" class="btn">View</a>
+                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/bba8dfcebead0cf8978b0ffa546eb0bece176161/GG_OOPLABTASK1MIDTERm.pdf"
+                   target="_blank" class="btn">View</a>
             </div>
         </li>
 
         <li>Midterm Lab Task 2
             <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/f60326f453a91530d6a777ee7ec8007cd8a2e72f/GLexter.pdf" target="_blank" class="btn">View</a>
+                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/f60326f453a91530d6a777ee7ec8007cd8a2e72f/GLexter.pdf"
+                   target="_blank" class="btn">View</a>
             </div>
         </li>
 
         <li>Midterm Lab Task 3
             <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/529b4a73f060bcb217c8227ab08b5effeec2a0b7/Untitled%20document-2.pdf" target="_blank" class="btn">View</a>
+                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/529b4a73f060bcb217c8227ab08b5effeec2a0b7/Untitled%20document-2.pdf"
+                   target="_blank" class="btn">View</a>
             </div>
         </li>
 
         <li>Midterm Lab Task 4
             <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/3d4671a6f9d8adc411f3e0bbf83d570d6d87090f/GabonLexter.pdf" target="_blank" class="btn">View</a>
+                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/3d4671a6f9d8adc411f3e0bbf83d570d6d87090f/GabonLexter.pdf"
+                   target="_blank" class="btn">View</a>
             </div>
         </li>
 
         <li>Midterm Lab Task 5
             <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/0319740b8dd978f778f95ea7ec4e60e7287acbe6/gabonlexter.pdf" target="_blank" class="btn">View</a>
+                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/0319740b8dd978f778f95ea7ec4e60e7287acbe6/gabonlexter.pdf"
+                   target="_blank" class="btn">View</a>
             </div>
         </li>
     </ul>
 
-    <h3>Finals</h3>
+    <h3>Finals</hh3>
     <ul>
         <li>Finals Lab Task 1
             <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/46708e92dd680888952dd9a4bf6ef97756a3832b/gabonlexterc.pdf" target="_blank" class="btn">View</a>
+                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/46708e92dd680888952dd9a4bf6ef97756a3832b/gabonlexterc.pdf"
+                   target="_blank" class="btn">View</a>
             </div>
         </li>
 
         <li>Finals Lab Task 2
             <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/4b4d19c623e7dcf4fe272e9d9758920dfc61a883/GabonLexterF2.pdf" target="_blank" class="btn">View</a>
+                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/4b4d19c623e7dcf4fe272e9d9758920dfc61a883/GabonLexterF2.pdf"
+                   target="_blank" class="btn">View</a>
             </div>
         </li>
     </ul>
@@ -297,12 +310,16 @@
 
 <script>
 function toggleAbout() {
-    let about = document.getElementById("about-info");
+    let info = document.getElementById("about-info");
+    let btn = document.querySelector(".toggle-btn");
 
-    about.classList.toggle("active");
-
-    document.querySelector(".toggle-btn").textContent =
-        about.classList.contains("active") ? "Hide About Me" : "View About Me";
+    if (info.classList.contains("show")) {
+        info.classList.remove("show");
+        btn.textContent = "View About Me";
+    } else {
+        info.classList.add("show");
+        btn.textContent = "Hide About Me";
+    }
 }
 </script>
 
