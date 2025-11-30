@@ -12,8 +12,8 @@
     body {
         margin: 0;
         font-family: "Inter", sans-serif;
-        background: #1b1b1b; /* darker professional background */
-        color: #d9d9d9; /* softer gray text */
+        background: #1f1f1f; /* slightly darker background for professional feel */
+        color: #cfcfcf; /* softer gray text for readability */
         padding: 20px;
         line-height: 1.6;
     }
@@ -21,24 +21,28 @@
     header {
         text-align: center;
         padding: 60px 20px;
-        background: linear-gradient(135deg, #5b21b6, #2563eb, #7c3aed);
-        color: #ffffff;
+        background: linear-gradient(135deg, #4c1d95, #3b82f6, #6d28d9); /* dark gradient, muted */
+        color: #f8f8f8; /* subtle off-white for professional text */
         border-bottom-left-radius: 40px;
         border-bottom-right-radius: 40px;
-        box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.35);
         margin-bottom: 50px;
     }
 
-    h1 { margin: 0 0 10px 0; font-size: 2.5rem; }
+    h1 {
+        margin: 0 0 12px 0;
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
 
     section {
         max-width: 900px;
         margin: 50px auto;
-        background: #262626;
+        background: #2a2a2a; /* professional dark gray */
         padding: 40px 35px;
         border-radius: 18px;
         border-left: 5px solid transparent;
-        box-shadow: 0 0 20px rgba(124,58,237,0.2);
+        box-shadow: 0 0 18px rgba(109, 40, 217, 0.15);
         position: relative;
     }
 
@@ -48,7 +52,7 @@
         top: 0; left: 0; bottom: 0;
         width: 5px;
         border-radius: 5px 0 0 5px;
-        background: linear-gradient(180deg, #7c3aed, #2563eb, #7c3aed, #2563eb, #7c3aed);
+        background: linear-gradient(180deg, #6d28d9, #3b82f6, #6d28d9, #3b82f6, #6d28d9);
         background-size: 100% 300%;
         animation: moveBorder 2.5s linear infinite;
     }
@@ -59,20 +63,26 @@
     }
 
     h2 {
-        background: linear-gradient(90deg, #2563eb, #7c3aed);
+        background: linear-gradient(90deg, #3b82f6, #6d28d9);
         -webkit-background-clip: text;
         color: transparent;
         font-weight: 700;
         font-size: 1.9rem;
-        margin-bottom: 30px;
+        margin-bottom: 28px;
     }
 
-    h3 { text-align: center; margin: 30px 0 20px 0; font-weight: 600; }
+    h3 {
+        text-align: center;
+        margin: 28px 0 18px 0;
+        font-weight: 600;
+        color: #e0e0e0;
+    }
+
     .center { text-align: center; }
 
     img.profile {
         border-radius: 15px;
-        box-shadow: 0 6px 25px rgba(0,0,0,0.5);
+        box-shadow: 0 6px 25px rgba(0,0,0,0.45);
         display: block;
         margin: 0 auto 25px auto;
     }
@@ -84,11 +94,8 @@
         position: relative;
     }
 
-    a:hover { color: #c3a3ff; }
-    a:active {
-        transform: scale(0.95);
-        filter: brightness(1.2);
-    }
+    a:hover { color: #b9a3ff; }
+    a:active { transform: scale(0.95); filter: brightness(1.1); }
 
     .social-icons img { margin: 8px; }
 
@@ -97,34 +104,31 @@
         padding: 10px 22px;
         font-weight: 600;
         border-radius: 10px;
-        background: linear-gradient(135deg, #2563eb, #7c3aed);
-        color: white;
+        background: linear-gradient(135deg, #3b82f6, #6d28d9);
+        color: #f5f5f5;
         text-decoration: none;
         transition: all 0.2s ease;
-        box-shadow: 0 5px 15px rgba(124,58,237,0.4);
+        box-shadow: 0 5px 15px rgba(109,40,217,0.35);
         margin: 8px 5px;
         font-size: 0.95rem;
     }
 
     .btn:hover {
-        background: linear-gradient(135deg, #7c3aed, #2563eb);
-        box-shadow: 0 7px 20px rgba(124,58,237,0.6);
+        background: linear-gradient(135deg, #6d28d9, #3b82f6);
+        box-shadow: 0 7px 20px rgba(109,40,217,0.5);
     }
 
-    .btn:active {
-        transform: scale(0.95);
-        filter: brightness(1.1);
-    }
+    .btn:active { transform: scale(0.95); filter: brightness(1.05); }
 
     #about-info {
         max-height: 0;
         overflow: hidden;
         opacity: 0;
-        transform: translateY(-10px);
+        transform: translateY(-8px);
         transition: max-height 0.6s ease, opacity 0.5s ease, transform 0.5s ease;
-        margin-top: 20px;
+        margin-top: 18px;
         font-size: 1rem;
-        color: #e0e0e0;
+        color: #d0d0d0;
     }
     #about-info.show {
         max-height: 500px;
@@ -137,8 +141,8 @@
         padding: 10px 24px;
         font-weight: 600;
         border-radius: 10px;
-        background: linear-gradient(135deg, #2563eb, #7c3aed);
-        color: white;
+        background: linear-gradient(135deg, #3b82f6, #6d28d9);
+        color: #f5f5f5;
         border: none;
         cursor: pointer;
         transition: all 0.2s ease;
@@ -147,46 +151,44 @@
         margin-right: auto;
         font-size: 0.95rem;
     }
-    .toggle-btn:hover { background: linear-gradient(135deg, #7c3aed, #2563eb); }
+    .toggle-btn:hover { background: linear-gradient(135deg, #6d28d9, #3b82f6); }
     .toggle-btn:active { transform: scale(0.95); }
 
     ul { padding-left: 20px; }
-    li { margin-bottom: 14px; font-size: 1rem; }
+    li { margin-bottom: 14px; font-size: 1rem; color: #d0d0d0; }
 
-    /* ----- Card Layout for Lab Tasks ----- */
+    /* Lab Task Cards */
     .task-cards {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 25px;
+        gap: 22px;
         margin-top: 25px;
     }
 
     .task-card {
-        background: #2f2f2f;
-        padding: 25px 20px;
+        background: #2d2d2d;
+        padding: 24px 20px;
         border-radius: 15px;
         width: 270px;
         text-align: center;
-        box-shadow: 0 4px 18px rgba(0,0,0,0.5);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.45);
         transition: transform 0.3s, box-shadow 0.3s;
     }
 
     .task-card:hover {
-        transform: translateY(-6px);
-        box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+        transform: translateY(-5px);
+        box-shadow: 0 9px 28px rgba(0,0,0,0.55);
     }
 
     .task-card h4 {
         margin-bottom: 18px;
-        color: #a78bfa; /* professional purple */
+        color: #a78bfa; /* muted professional purple for titles */
         font-weight: 600;
         font-size: 1.1rem;
     }
 
-    section p, li {
-        color: #cccccc; /* softer paragraph text */
-    }
+    section p, li { color: #d0d0d0; }
 </style>
 </head>
 
