@@ -43,7 +43,6 @@
         position: relative;
     }
 
-    /* LED animated left border */
     section::before {
         content: '';
         position: absolute;
@@ -93,7 +92,6 @@
 
     .social-icons img { margin: 8px; }
 
-    /* GitHub / file buttons */
     .btn {
         display: inline-block;
         padding: 10px 22px;
@@ -119,7 +117,6 @@
 
     .btn-container { margin-top: 8px; }
 
-    /* Slide + Fade About Me */
     #about-info {
         max-height: 0;
         overflow: hidden;
@@ -183,9 +180,18 @@
         color: #8b5cf6;
     }
 
+    /* ----- Responsive ----- */
+    @media (max-width: 900px) {
+        section { width: 90%; padding: 25px; }
+        .task-card { width: 45%; }
+    }
+
+    @media (max-width: 600px) {
+        .task-card { width: 90%; }
+    }
+
 </style>
 </head>
-
 <body>
 
 <header>
