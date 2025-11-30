@@ -153,21 +153,43 @@
         box-sizing: border-box;
     }
 
+    /* Professional slider buttons */
     .slider-btn {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        background: rgba(0,0,0,0.4);
         border: none;
-        color: white;
-        font-size: 24px;
-        padding: 10px 15px;
         cursor: pointer;
+        font-size: 20px;
+        padding: 12px;
         border-radius: 50%;
+        color: white;
+        background: linear-gradient(135deg, #3b82f6, #6d28d9);
+        box-shadow: 0 5px 15px rgba(109,40,217,0.5);
+        transition: all 0.3s ease;
     }
-    .slider-prev { left: 10px; }
-    .slider-next { right: 10px; }
-    .slider-btn:hover { background: rgba(0,0,0,0.7); }
+    .slider-btn:hover {
+        background: linear-gradient(135deg, #6d28d9, #3b82f6);
+        box-shadow: 0 7px 20px rgba(109,40,217,0.7);
+    }
+    .slider-prev { left: 15px; }
+    .slider-next { right: 15px; }
+
+    /* Arrow icons inside buttons */
+    .slider-btn::before {
+        content: '';
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-top: 2px solid white;
+        border-right: 2px solid white;
+    }
+    .slider-prev::before {
+        transform: rotate(-135deg);
+    }
+    .slider-next::before {
+        transform: rotate(45deg);
+    }
 </style>
 </head>
 <body>
@@ -220,12 +242,9 @@
             <div class="slide">
                 <h3>Midterm</h3>
                 <ul>
-                    <li>Paired Lab Task <div class="btn-container"><a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/d33c3b3a77f9ad1a06368c55433102bb35d2718f/7OOP.Gatil%2CGabon.pdf" target="_blank" class="btn">View</a></div></li>
-                    <li>Midterm Lab Task 1 <div class="btn-container"><a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/bba8dfcebead0cf8978b0ffa546eb0bece176161/GG_OOPLABTASK1MIDTERm.pdf" target="_blank" class="btn">View</a></div></li>
-                    <li>Midterm Lab Task 2 <div class="btn-container"><a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/f60326f453a91530d6a777ee7ec8007cd8a2e72f/GLexter.pdf" target="_blank" class="btn">View</a></div></li>
-                    <li>Midterm Lab Task 3 <div class="btn-container"><a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/529b4a73f060bcb217c8227ab08b5effeec2a0b7/Untitled%20document-2.pdf" target="_blank" class="btn">View</a></div></li>
-                    <li>Midterm Lab Task 4 <div class="btn-container"><a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/3d4671a6f9d8adc411f3e0bbf83d570d6d87090f/GabonLexter.pdf" target="_blank" class="btn">View</a></div></li>
-                    <li>Midterm Lab Task 5 <div class="btn-container"><a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/0319740b8dd978f778f95ea7ec4e60e7287acbe6/gabonlexter.pdf" target="_blank" class="btn">View</a></div></li>
+                    <li>Paired Lab Task <div class="btn-container"><a href="#" class="btn">View</a></div></li>
+                    <li>Midterm Lab Task 1 <div class="btn-container"><a href="#" class="btn">View</a></div></li>
+                    <li>Midterm Lab Task 2 <div class="btn-container"><a href="#" class="btn">View</a></div></li>
                 </ul>
             </div>
 
@@ -233,14 +252,14 @@
             <div class="slide">
                 <h3>Finals</h3>
                 <ul>
-                    <li>Finals Lab Task 1 <div class="btn-container"><a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/46708e92dd680888952dd9a4bf6ef97756a3832b/gabonlexterc.pdf" target="_blank" class="btn">View</a></div></li>
-                    <li>Finals Lab Task 2 <div class="btn-container"><a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/4b4d19c623e7dcf4fe272e9d9758920dfc61a883/GabonLexterF2.pdf" target="_blank" class="btn">View</a></div></li>
+                    <li>Finals Lab Task 1 <div class="btn-container"><a href="#" class="btn">View</a></div></li>
+                    <li>Finals Lab Task 2 <div class="btn-container"><a href="#" class="btn">View</a></div></li>
                 </ul>
             </div>
         </div>
 
-        <button class="slider-btn slider-prev" onclick="prevSlide()">❮</button>
-        <button class="slider-btn slider-next" onclick="nextSlide()">❯</button>
+        <button class="slider-btn slider-prev" onclick="prevSlide()"></button>
+        <button class="slider-btn slider-next" onclick="nextSlide()"></button>
     </div>
 </section>
 
@@ -269,7 +288,6 @@
     </div>
 </section>
 
-<!-- View on GitHub at the bottom -->
 <div class="center">
     <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects" target="_blank" class="btn">View On GitHub</a>
 </div>
