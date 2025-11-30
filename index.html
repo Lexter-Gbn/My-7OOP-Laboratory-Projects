@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -23,7 +23,6 @@
         background: linear-gradient(135deg, #4c1d95, #3b82f6, #8b5cf6);
         color: white;
 
-        /* Curved bottom edges */
         border-bottom-left-radius: 40px;
         border-bottom-right-radius: 40px;
 
@@ -115,9 +114,7 @@
         filter: brightness(1.2);
     }
 
-    .btn-container {
-        margin-top: 5px;
-    }
+    .btn-container { margin-top: 5px; }
 
     /* Slide + Fade About Me */
     #about-info {
@@ -152,6 +149,40 @@
     .toggle-btn:active {
         transform: scale(0.95);
     }
+
+    /* --- SLIDER STYLES --- */
+    .project-slider {
+        display: flex;
+        overflow: hidden;
+        scroll-behavior: smooth;
+        position: relative;
+    }
+
+    .slide {
+        min-width: 100%;
+        transition: transform 0.5s ease;
+    }
+
+    .slide ul { list-style: none; padding-left: 0; }
+
+    .slider-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(60,60,60,0.6);
+        border: none;
+        color: white;
+        font-size: 20px;
+        padding: 5px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+        z-index: 10;
+        transition: all 0.2s ease;
+    }
+    .slider-btn:hover { background: rgba(80,80,80,0.8); }
+    .slider-prev { left: 10px; }
+    .slider-next { right: 10px; }
+
 </style>
 </head>
 
@@ -162,17 +193,11 @@
     <p><i>My journey through Object-Oriented Programming — Here are some of the things I've built.</i></p>
 </header>
 
-<!-- ❌ REMOVED FROM TOP -->
-
 <section class="center">
     <h2>About Me</h2>
-
     <img src="IMG_20251030_10-14-12-318.jpg?" width="235" height="255" class="profile">
-
     <br><br>
-
     <button class="toggle-btn" onclick="toggleAbout()">View About Me</button>
-
     <div id="about-info">
         <p>Hello, I'm <b>Lexter</b> — a positive and sociable individual who finds happiness in everyday moments and meaningful interactions.  
         My academic journey has shaped me into a determined person with a strong desire to continuously improve myself and reach my full potential as a student.</p>
@@ -207,67 +232,51 @@
 <section>
     <h2>My Projects</h2>
 
-    <h3>Midterm</h3>
-    <ul>
-        <li>Paired Lab Task
-            <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/d33c3b3a77f9ad1a06368c55433102bb35d2718f/7OOP.Gatil%2CGabon.pdf"
-                   target="_blank" class="btn">View</a>
-            </div>
-        </li>
+    <!-- Slider Container -->
+    <div class="project-slider" id="project-slider">
 
-        <li>Midterm Lab Task 1
-            <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/bba8dfcebead0cf8978b0ffa546eb0bece176161/GG_OOPLABTASK1MIDTERm.pdf"
-                   target="_blank" class="btn">View</a>
-            </div>
-        </li>
+        <!-- Slide 1: Midterms -->
+        <div class="slide">
+            <h3>Midterm</h3>
+            <ul>
+                <li>Paired Lab Task
+                    <div class="btn-container">
+                        <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/d33c3b3a77f9ad1a06368c55433102bb35d2718f/7OOP.Gatil%2CGabon.pdf" target="_blank" class="btn">View</a>
+                    </div>
+                </li>
+                <li>Midterm Lab Task 1
+                    <div class="btn-container">
+                        <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/bba8dfcebead0cf8978b0ffa546eb0bece176161/GG_OOPLABTASK1MIDTERm.pdf" target="_blank" class="btn">View</a>
+                    </div>
+                </li>
+                <li>Midterm Lab Task 2
+                    <div class="btn-container">
+                        <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/f60326f453a91530d6a777ee7ec8007cd8a2e72f/GLexter.pdf" target="_blank" class="btn">View</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- Slide 2: Finals -->
+        <div class="slide">
+            <h3>Finals</h3>
+            <ul>
+                <li>Finals Lab Task 1
+                    <div class="btn-container">
+                        <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/46708e92dd680888952dd9a4bf6ef97756a3832b/gabonlexterc.pdf" target="_blank" class="btn">View</a>
+                    </div>
+                </li>
+                <li>Finals Lab Task 2
+                    <div class="btn-container">
+                        <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/4b4d19c623e7dcf4fe272e9d9758920dfc61a883/GabonLexterF2.pdf" target="_blank" class="btn">View</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-        <li>Midterm Lab Task 2
-            <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/f60326f453a91530d6a777ee7ec8007cd8a2e72f/GLexter.pdf"
-                   target="_blank" class="btn">View</a>
-            </div>
-        </li>
-
-        <li>Midterm Lab Task 3
-            <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/529b4a73f060bcb217c8227ab08b5effeec2a0b7/Untitled%20document-2.pdf"
-                   target="_blank" class="btn">View</a>
-            </div>
-        </li>
-
-        <li>Midterm Lab Task 4
-            <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/3d4671a6f9d8adc411f3e0bbf83d570d6d87090f/GabonLexter.pdf"
-                   target="_blank" class="btn">View</a>
-            </div>
-        </li>
-
-        <li>Midterm Lab Task 5
-            <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/0319740b8dd978f778f95ea7ec4e60e7287acbe6/gabonlexter.pdf"
-                   target="_blank" class="btn">View</a>
-            </div>
-        </li>
-    </ul>
-
-    <h3>Finals</h3>
-    <ul>
-        <li>Finals Lab Task 1
-            <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/46708e92dd680888952dd9a4bf6ef97756a3832b/gabonlexterc.pdf"
-                   target="_blank" class="btn">View</a>
-            </div>
-        </li>
-
-        <li>Finals Lab Task 2
-            <div class="btn-container">
-                <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/4b4d19c623e7dcf4fe272e9d9758920dfc61a883/GabonLexterF2.pdf"
-                   target="_blank" class="btn">View</a>
-            </div>
-        </li>
-    </ul>
+    <!-- Slider Navigation Buttons -->
+    <button class="slider-btn slider-prev" onclick="prevSlide()">❮</button>
+    <button class="slider-btn slider-next" onclick="nextSlide()">❯</button>
 </section>
 
 <section>
@@ -306,17 +315,15 @@
     </div>
 </section>
 
-<!-- ✅ View On GitHub MOVED TO THE VERY BOTTOM -->
-<div class="center" style="margin-top: 40px;">
-    <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects" 
-       target="_blank" class="btn">View On GitHub</a>
+<!-- Bottom View on GitHub -->
+<div class="center" style="margin-top: 30px;">
+    <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects" target="_blank" class="btn">View On GitHub</a>
 </div>
 
 <script>
 function toggleAbout() {
     let info = document.getElementById("about-info");
     let btn = document.querySelector(".toggle-btn");
-
     if (info.classList.contains("show")) {
         info.classList.remove("show");
         btn.textContent = "View About Me";
@@ -324,6 +331,29 @@ function toggleAbout() {
         info.classList.add("show");
         btn.textContent = "Hide About Me";
     }
+}
+
+// Slider functionality
+let slider = document.getElementById("project-slider");
+let slides = document.querySelectorAll(".slide");
+let currentIndex = 0;
+
+function nextSlide() {
+    if (currentIndex < slides.length - 1) {
+        currentIndex++;
+        updateSlider();
+    }
+}
+
+function prevSlide() {
+    if (currentIndex > 0) {
+        currentIndex--;
+        updateSlider();
+    }
+}
+
+function updateSlider() {
+    slider.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
 </script>
 
