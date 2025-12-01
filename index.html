@@ -12,7 +12,7 @@
     body {
         margin: 0;
         font-family: "Inter", sans-serif;
-        background: #1e1e1e; /* darker background for professional look */
+        background: #1e1e1e;
         color: #e0e0e0;
         padding: 20px;
         line-height: 1.6;
@@ -21,7 +21,7 @@
     header {
         text-align: center;
         padding: 50px 20px;
-        background: linear-gradient(135deg, #5b21b6, #2563eb, #7c3aed); /* optimized gradient */
+        background: linear-gradient(135deg, #5b21b6, #2563eb, #7c3aed);
         color: #ffffff;
         border-bottom-left-radius: 40px;
         border-bottom-right-radius: 40px;
@@ -34,23 +34,22 @@
     section {
         width: 80%;
         margin: 40px auto;
-        background: #2b2b2b; /* darker section background */
+        background: #2b2b2b;
         padding: 30px 30px 40px 30px;
         border-radius: 15px;
         border-left: 5px solid transparent;
-        box-shadow: 0 0 15px rgba(124, 58, 237, 0.25); /* subtle purple shadow */
+        box-shadow: 0 0 15px rgba(124, 58, 237, 0.25);
         background-clip: padding-box;
         position: relative;
     }
 
-    /* LED animated left border */
     section::before {
         content: '';
         position: absolute;
         top: 0; left: 0; bottom: 0;
         width: 5px;
         border-radius: 5px 0 0 5px;
-        background: linear-gradient(180deg, #7c3aed, #2563eb, #7c3aed, #2563eb, #7c3aed);
+        background: linear-gradient(180deg, #7c3aed, #2563eb, #7c3aed);
         background-size: 100% 300%;
         animation: moveBorder 2.5s linear infinite;
     }
@@ -61,7 +60,7 @@
     }
 
     h2 {
-        background: linear-gradient(90deg, #2563eb, #7c3aed); /* professional gradient */
+        background: linear-gradient(90deg, #2563eb, #7c3aed);
         -webkit-background-clip: text;
         color: transparent;
         font-weight: 700;
@@ -91,66 +90,23 @@
         filter: brightness(1.2);
     }
 
-    .social-icons img { margin: 8px; }
-
     .btn {
         display: inline-block;
         padding: 10px 22px;
         font-weight: 600;
         border-radius: 8px;
-        background: linear-gradient(135deg, #2563eb, #7c3aed); /* smoother gradient */
+        background: linear-gradient(135deg, #2563eb, #7c3aed);
         color: white;
-        text-decoration: none;
         transition: all 0.2s ease;
         box-shadow: 0 5px 15px rgba(124,58,237,0.4);
         margin: 8px 5px;
+        cursor: pointer;
     }
 
     .btn:hover {
         background: linear-gradient(135deg, #7c3aed, #2563eb);
         box-shadow: 0 7px 20px rgba(124,58,237,0.6);
     }
-
-    .btn:active {
-        transform: scale(0.95);
-        filter: brightness(1.2);
-    }
-
-    .btn-container { margin-top: 8px; }
-
-    #about-info {
-        max-height: 0;
-        overflow: hidden;
-        opacity: 0;
-        transform: translateY(-10px);
-        transition: max-height 0.6s ease, opacity 0.5s ease, transform 0.5s ease;
-        margin-top: 15px;
-    }
-    #about-info.show {
-        max-height: 500px;
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-    .toggle-btn {
-        margin-top: 15px;
-        padding: 10px 22px;
-        font-weight: 600;
-        border-radius: 8px;
-        background: linear-gradient(135deg, #2563eb, #7c3aed);
-        color: white;
-        border: none;
-        cursor: pointer;
-        transition: all 0.2s ease;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .toggle-btn:hover { background: linear-gradient(135deg, #7c3aed, #2563eb); }
-    .toggle-btn:active { transform: scale(0.95); }
-
-    ul { padding-left: 20px; }
-    li { margin-bottom: 12px; }
 
     /* ----- Card Layout for Lab Tasks ----- */
     .task-cards {
@@ -162,7 +118,7 @@
     }
 
     .task-card {
-        background: #3a3a3a; /* refined card background */
+        background: #3a3a3a;
         padding: 20px;
         border-radius: 12px;
         width: 260px;
@@ -178,7 +134,45 @@
 
     .task-card h4 {
         margin-bottom: 15px;
-        color: #c3a3ff; /* subtle accent color for titles */
+        color: #c3a3ff;
+    }
+
+    /* ------------ PDF VIEWER MODAL ------------- */
+    #pdfModal {
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100vh;
+        background: rgba(0,0,0,0.85);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        z-index: 9999;
+    }
+
+    #pdfModal iframe {
+        width: 90%;
+        height: 90%;
+        border-radius: 12px;
+        border: none;
+        box-shadow: 0 0 25px rgba(124,58,237,0.6);
+    }
+
+    #closeBtn {
+        position: absolute;
+        top: 25px;
+        right: 35px;
+        background: #7c3aed;
+        padding: 10px 18px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        color: white;
+        box-shadow: 0 0 20px rgba(124,58,237,0.7);
+    }
+
+    #closeBtn:hover {
+        background: #5b21b6;
     }
 
 </style>
@@ -196,8 +190,7 @@
     <img src="IMG_20251030_10-14-12-318.jpg?" width="235" height="255" class="profile">
     <button class="toggle-btn" onclick="toggleAbout()">View About Me</button>
     <div id="about-info">
-        <p>Hello, I'm <b>Lexter</b> — a positive and sociable individual who finds happiness in everyday moments and meaningful interactions.
-        My academic journey has shaped me into a determined person with a strong desire to continuously improve myself and reach my full potential as a student.</p>
+        <p>Hello, I'm <b>Lexter</b> — a positive and sociable individual who finds happiness in everyday moments and meaningful interactions.</p>
     </div>
 </section>
 
@@ -231,42 +224,52 @@
 
     <h3>Midterm</h3>
     <div class="task-cards">
+
         <div class="task-card">
             <h4>Paired Lab Task</h4>
-            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/d33c3b3a77f9ad1a06368c55433102bb35d2718f/7OOP.Gatil%2CGabon.pdf" target="_blank" class="btn">View</a>
+            <button class="btn" onclick="openPDF('https://raw.githubusercontent.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/main/7OOP.Gatil%2CGabon.pdf')">View</button>
         </div>
+
         <div class="task-card">
             <h4>Midterm Lab Task 1</h4>
-            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/bba8dfcebead0cf8978b0ffa546eb0bece176161/GG_OOPLABTASK1MIDTERm.pdf" target="_blank" class="btn">View</a>
+            <button class="btn" onclick="openPDF('https://raw.githubusercontent.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/main/GG_OOPLABTASK1MIDTERm.pdf')">View</button>
         </div>
+
         <div class="task-card">
             <h4>Midterm Lab Task 2</h4>
-            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/f60326f453a91530d6a777ee7ec8007cd8a2e72f/GLexter.pdf" target="_blank" class="btn">View</a>
+            <button class="btn" onclick="openPDF('https://raw.githubusercontent.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/main/GLexter.pdf')">View</button>
         </div>
+
         <div class="task-card">
             <h4>Midterm Lab Task 3</h4>
-            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/529b4a73f060bcb217c8227ab08b5effeec2a0b7/Untitled%20document-2.pdf" target="_blank" class="btn">View</a>
+            <button class="btn" onclick="openPDF('https://raw.githubusercontent.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/main/Untitled%20document-2.pdf')">View</button>
         </div>
+
         <div class="task-card">
             <h4>Midterm Lab Task 4</h4>
-            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/3d4671a6f9d8adc411f3e0bbf83d570d6d87090f/GabonLexter.pdf" target="_blank" class="btn">View</a>
+            <button class="btn" onclick="openPDF('https://raw.githubusercontent.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/main/GabonLexter.pdf')">View</button>
         </div>
+
         <div class="task-card">
             <h4>Midterm Lab Task 5</h4>
-            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/0319740b8dd978f778f95ea7ec4e60e7287acbe6/gabonlexter.pdf" target="_blank" class="btn">View</a>
+            <button class="btn" onclick="openPDF('https://raw.githubusercontent.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/main/gabonlexter.pdf')">View</button>
         </div>
+
     </div>
 
     <h3>Finals</h3>
     <div class="task-cards">
+
         <div class="task-card">
             <h4>Finals Lab Task 1</h4>
-            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/46708e92dd680888952dd9a4bf6ef97756a3832b/gabonlexterc.pdf" target="_blank" class="btn">View</a>
+            <button class="btn" onclick="openPDF('https://raw.githubusercontent.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/main/gabonlexterc.pdf')">View</button>
         </div>
+
         <div class="task-card">
             <h4>Finals Lab Task 2</h4>
-            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/4b4d19c623e7dcf4fe272e9d9758920dfc61a883/GabonLexterF2.pdf" target="_blank" class="btn">View</a>
+            <button class="btn" onclick="openPDF('https://raw.githubusercontent.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/main/GabonLexterF2.pdf')">View</button>
         </div>
+
     </div>
 </section>
 
@@ -307,6 +310,12 @@
     <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects" target="_blank" class="btn">View On GitHub</a>
 </div>
 
+<!-- PDF Viewer Modal -->
+<div id="pdfModal">
+    <div id="closeBtn" onclick="closePDF()">CLOSE</div>
+    <iframe id="pdfFrame"></iframe>
+</div>
+
 <script>
 function toggleAbout() {
     let info = document.getElementById("about-info");
@@ -319,6 +328,16 @@ function toggleAbout() {
         info.classList.add("show");
         btn.textContent = "Hide About Me";
     }
+}
+
+function openPDF(url) {
+    document.getElementById("pdfFrame").src = url;
+    document.getElementById("pdfModal").style.display = "flex";
+}
+
+function closePDF() {
+    document.getElementById("pdfModal").style.display = "none";
+    document.getElementById("pdfFrame").src = "";
 }
 </script>
 
