@@ -12,7 +12,7 @@
     body {
         margin: 0;
         font-family: "Inter", sans-serif;
-        background: #1e1e1e;
+        background: #1e1e1e; /* darker background for professional look */
         color: #e0e0e0;
         padding: 20px;
         line-height: 1.6;
@@ -21,13 +21,12 @@
     header {
         text-align: center;
         padding: 50px 20px;
-        background: linear-gradient(135deg, #5b21b6, #2563eb, #7c3aed);
+        background: linear-gradient(135deg, #5b21b6, #2563eb, #7c3aed); /* optimized gradient */
         color: #ffffff;
         border-bottom-left-radius: 40px;
         border-bottom-right-radius: 40px;
         box-shadow: 0 8px 20px rgba(0,0,0,0.35);
         margin-bottom: 40px;
-        position: relative;
     }
 
     h1 { margin: 0 0 10px 0; }
@@ -35,11 +34,11 @@
     section {
         width: 80%;
         margin: 40px auto;
-        background: #2b2b2b;
+        background: #2b2b2b; /* darker section background */
         padding: 30px 30px 40px 30px;
         border-radius: 15px;
         border-left: 5px solid transparent;
-        box-shadow: 0 0 15px rgba(124, 58, 237, 0.25);
+        box-shadow: 0 0 15px rgba(124, 58, 237, 0.25); /* subtle purple shadow */
         background-clip: padding-box;
         position: relative;
     }
@@ -62,7 +61,7 @@
     }
 
     h2 {
-        background: linear-gradient(90deg, #2563eb, #7c3aed);
+        background: linear-gradient(90deg, #2563eb, #7c3aed); /* professional gradient */
         -webkit-background-clip: text;
         color: transparent;
         font-weight: 700;
@@ -87,7 +86,10 @@
     }
 
     a:hover { color: #c3a3ff; }
-    a:active { transform: scale(0.95); filter: brightness(1.2); }
+    a:active {
+        transform: scale(0.95);
+        filter: brightness(1.2);
+    }
 
     .social-icons img { margin: 8px; }
 
@@ -96,7 +98,7 @@
         padding: 10px 22px;
         font-weight: 600;
         border-radius: 8px;
-        background: linear-gradient(135deg, #2563eb, #7c3aed);
+        background: linear-gradient(135deg, #2563eb, #7c3aed); /* smoother gradient */
         color: white;
         text-decoration: none;
         transition: all 0.2s ease;
@@ -109,7 +111,10 @@
         box-shadow: 0 7px 20px rgba(124,58,237,0.6);
     }
 
-    .btn:active { transform: scale(0.95); filter: brightness(1.2); }
+    .btn:active {
+        transform: scale(0.95);
+        filter: brightness(1.2);
+    }
 
     .btn-container { margin-top: 8px; }
 
@@ -121,7 +126,6 @@
         transition: max-height 0.6s ease, opacity 0.5s ease, transform 0.5s ease;
         margin-top: 15px;
     }
-
     #about-info.show {
         max-height: 500px;
         opacity: 1;
@@ -158,7 +162,7 @@
     }
 
     .task-card {
-        background: #3a3a3a;
+        background: #3a3a3a; /* refined card background */
         padding: 20px;
         border-radius: 12px;
         width: 260px;
@@ -174,31 +178,20 @@
 
     .task-card h4 {
         margin-bottom: 15px;
-        color: #c3a3ff;
+        color: #c3a3ff; /* subtle accent color for titles */
     }
 
-    /* ===== Scroll Fade-in Animation ===== */
-    .fade-in {
-        opacity: 0;
-        transform: translateY(20px);
-        transition: opacity 0.9s ease, transform 0.9s ease;
-    }
-
-    .fade-in.show {
-        opacity: 1;
-        transform: translateY(0);
-    }
 </style>
 </head>
 
 <body>
 
-<header class="fade-in">
+<header>
     <h1>My 7OOP Laboratory Projects</h1>
     <p><i>My journey through Object-Oriented Programming — Here are some of the things I've built.</i></p>
 </header>
 
-<section class="center fade-in">
+<section class="center">
     <h2>About Me</h2>
     <img src="IMG_20251030_10-14-12-318.jpg?" width="235" height="255" class="profile">
     <button class="toggle-btn" onclick="toggleAbout()">View About Me</button>
@@ -208,7 +201,7 @@
     </div>
 </section>
 
-<section class="fade-in">
+<section>
     <h2>I Believe In</h2>
     <ul style="list-style: none; padding-left: 0;">
         <li>🌱 Stay diligent, stay committed, and your goals will follow.</li>
@@ -217,14 +210,14 @@
     </ul>
 </section>
 
-<section class="fade-in">
+<section>
     <h2>Education</h2>
     <p><b>Senior High School:</b> Gov. Rafael L. Lazatin Integrated School</p>
     <p><b>Junior High School:</b> Orani National High School Parang-Parang</p>
     <p><b>Elementary:</b> Pant.Luma Elementary School</p>
 </section>
 
-<section class="fade-in">
+<section>
     <h2>Languages I Used Before</h2>
     <p>
         <img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" height="50">
@@ -233,56 +226,56 @@
     </p>
 </section>
 
-<section class="fade-in">
+<section>
     <h2>My Projects</h2>
 
     <h3>Midterm</h3>
     <div class="task-cards">
-        <div class="task-card fade-in">
+        <div class="task-card">
             <h4>Paired Lab Task</h4>
-            <a href="#" class="btn" onclick="showPDF('7OOP.Gatil,Gabon.pdf')">View</a>
+            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/d33c3b3a77f9ad1a06368c55433102bb35d2718f/7OOP.Gatil%2CGabon.pdf" target="_blank" class="btn">View</a>
         </div>
-        <div class="task-card fade-in">
+        <div class="task-card">
             <h4>Midterm Lab Task 1</h4>
-            <a href="#" class="btn" onclick="showPDF('GG_OOPLABTASK1MIDTERm.pdf')">View</a>
+            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/bba8dfcebead0cf8978b0ffa546eb0bece176161/GG_OOPLABTASK1MIDTERm.pdf" target="_blank" class="btn">View</a>
         </div>
-        <div class="task-card fade-in">
+        <div class="task-card">
             <h4>Midterm Lab Task 2</h4>
-            <a href="#" class="btn" onclick="showPDF('GLexter.pdf')">View</a>
+            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/f60326f453a91530d6a777ee7ec8007cd8a2e72f/GLexter.pdf" target="_blank" class="btn">View</a>
         </div>
-        <div class="task-card fade-in">
+        <div class="task-card">
             <h4>Midterm Lab Task 3</h4>
-            <a href="#" class="btn" onclick="showPDF('Untitled document-2.pdf')">View</a>
+            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/529b4a73f060bcb217c8227ab08b5effeec2a0b7/Untitled%20document-2.pdf" target="_blank" class="btn">View</a>
         </div>
-        <div class="task-card fade-in">
+        <div class="task-card">
             <h4>Midterm Lab Task 4</h4>
-            <a href="#" class="btn" onclick="showPDF('GabonLexter.pdf')">View</a>
+            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/3d4671a6f9d8adc411f3e0bbf83d570d6d87090f/GabonLexter.pdf" target="_blank" class="btn">View</a>
         </div>
-        <div class="task-card fade-in">
+        <div class="task-card">
             <h4>Midterm Lab Task 5</h4>
-            <a href="#" class="btn" onclick="showPDF('gabonlexter.pdf')">View</a>
+            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/0319740b8dd978f778f95ea7ec4e60e7287acbe6/gabonlexter.pdf" target="_blank" class="btn">View</a>
         </div>
     </div>
 
     <h3>Finals</h3>
     <div class="task-cards">
-        <div class="task-card fade-in">
+        <div class="task-card">
             <h4>Finals Lab Task 1</h4>
-            <a href="#" class="btn" onclick="showPDF('gabonlexterc.pdf')">View</a>
+            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/46708e92dd680888952dd9a4bf6ef97756a3832b/gabonlexterc.pdf" target="_blank" class="btn">View</a>
         </div>
-        <div class="task-card fade-in">
+        <div class="task-card">
             <h4>Finals Lab Task 2</h4>
-            <a href="#" class="btn" onclick="showPDF('GabonLexterF2.pdf')">View</a>
+            <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/4b4d19c623e7dcf4fe272e9d9758920dfc61a883/GabonLexterF2.pdf" target="_blank" class="btn">View</a>
         </div>
     </div>
 </section>
 
-<section class="fade-in">
+<section>
     <h2>Fun Fact About Me</h2>
     <p>Simple pleasures like a good cup of coffee or a heartfelt conversation bring immense happiness to me.</p>
 </section>
 
-<section class="fade-in">
+<section>
     <h2>Skills</h2>
     <ul>
         <li>Time Management ⏰</li>
@@ -292,39 +285,33 @@
     </ul>
 </section>
 
-<section class="center fade-in">
+<section class="center">
     <h2>Connect With Me</h2>
     <div class="social-icons">
-        <a href="mailto:lgabon24-1509@cca.edu.ph">
+        <a href="mailto:lgabon24-1509@cca.edu.ph" target="_blank">
             <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="40">
         </a>
-        <a href="//www.facebook.com/Gbnlxtr">
+        <a href="//www.facebook.com/Gbnlxtr" target="_blank">
             <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="40">
         </a>
-        <a href="//www.instagram.com/gbnlxtrrr">
+        <a href="//www.instagram.com/gbnlxtrrr" target="_blank">
             <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="40">
         </a>
-        <a href="//www.tiktok.com/@slrrrrtsss">
+        <a href="//www.tiktok.com/@slrrrrtsss" target="_blank">
             <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" height="40">
         </a>
     </div>
 </section>
 
-<div class="center fade-in" style="margin-top: 50px;">
-    <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects" class="btn">View On GitHub</a>
+<div class="center" style="margin-top: 50px;">
+    <a href="https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects" target="_blank" class="btn">View On GitHub</a>
 </div>
 
-<!-- PDF Viewer Modal -->
-<section id="pdf-viewer" class="fade-in" style="width:80%;margin:40px auto; display:none;">
-    <h2>Project Preview</h2>
-    <iframe id="pdf-frame" src="" width="100%" height="600px" style="border-radius:12px;"></iframe>
-</section>
-
 <script>
-// About Me Toggle
 function toggleAbout() {
     let info = document.getElementById("about-info");
     let btn = document.querySelector(".toggle-btn");
+
     if (info.classList.contains("show")) {
         info.classList.remove("show");
         btn.textContent = "View About Me";
@@ -333,26 +320,6 @@ function toggleAbout() {
         btn.textContent = "Hide About Me";
     }
 }
-
-// Show PDF in Portfolio
-function showPDF(file) {
-    const viewer = document.getElementById("pdf-viewer");
-    const frame = document.getElementById("pdf-frame");
-    frame.src = file;
-    viewer.style.display = "block";
-    viewer.scrollIntoView({behavior: "smooth"});
-}
-
-// Scroll Fade-in Animation
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add("show");
-        }
-    });
-}, { threshold: 0.1 });
-
-document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 </script>
 
 </body>
