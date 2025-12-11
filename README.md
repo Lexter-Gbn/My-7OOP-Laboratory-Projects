@@ -60,6 +60,10 @@ My academic journey has shaped me into a determined person with a strong desire 
 ### Finals
 - [Finals Lab Task 1](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/46708e92dd680888952dd9a4bf6ef97756a3832b/gabonlexterc.pdf)
 - [Finals Lab Task 2](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/e5535d3285ac3570d00323f7574d65ac3dbc5d0c/GabonLexterF2.pdf)
+- [Finals Lab Task 3](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/c1b723990ea20dca277eeb9895e9af2781ca8523/GabonLexterF3.pdf)
+- [Finals Lab Task 4](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/95d4652981694689dacde84ee00ecf45f777b5d3/Gabon_LexterF4.pdf)
+- [Finals Lab Task 5](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/45e57938e37d32f6d93c5bc5ad185645fe26f17f/GabonLexterF5.pdf)
+- [Finals Lab Task 6](https://github.com/Lexter-Gbn/My-7OOP-Laboratory-Projects/blob/50d4955d351f6040b6a8cfb1c392569cb0432980/GABONLEXTERf6.pdf)
 
 ---
 
